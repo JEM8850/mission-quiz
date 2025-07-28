@@ -177,13 +177,13 @@ document.addEventListener('DOMContentLoaded', function() {
           description: { zh: "你是個有遠見的策略家，像保羅一樣，總能看到大格局，愛規劃大事，還能預測問題並解決！超適合帶領大型宣教計劃。", en: "You’re a visionary strategist like Paul, always seeing the big picture, planning big, and solving problems before they happen! Perfect for leading major mission plans." },
           tasks: { zh: "策劃大項目、分析環境、設計事工藍圖。", en: "Plan big projects, analyze environments, design ministry blueprints." },
           character: { zh: "保羅", en: "Paul" }, reason: { zh: "保羅超會規劃，像是決定去羅馬（使徒行傳19:21），還能在雅典用文化講道（使徒行傳17:22-31），超像你！", en: "Paul was a master planner, like deciding to go to Rome (Acts 19:21) and preaching culturally in Athens (Acts 17:22-31), just like you!" },
-          image: "1" // 替換為實際圖片URL，例如: "https://i.imgur.com/INTJ_image.jpg"
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753698907/Paul_pvfedj.jpg" // 替換為實際圖片URL，例如: "https://i.imgur.com/INTJ_image.jpg"
         },
         INTP: { name: { zh: "腦洞分析王", en: "Insight Geek" }, category: { zh: "智囊團", en: "Thinkers" },
           description: { zh: "你愛鑽研問題，總能想到新點子，適合研究文化或設計酷炫的宣教方法。", en: "You love diving into problems and coming up with fresh ideas, perfect for researching cultures or designing cool mission methods." },
           tasks: { zh: "研究當地文化、設計新工具、提供數據。", en: "Research cultures, design tools, provide data." },
           character: { zh: "迦瑪列", en: "Gamaliel" }, reason: { zh: "迦瑪列冷靜分析，給猶太公會出主意（使徒行傳5:34-39），跟你一樣聰明！", en: "Gamaliel calmly analyzes and advises the Sanhedrin (Acts 5:34-39), just like your sharp mind!" },
-          image: "2" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753698895/Gamaliel_kd6eh3.jpg" // 替換為實際圖片URL
         },
         ENTJ: { name: { zh: "霸氣領袖", en: "Bold Leader" }, category: { zh: "智囊團", en: "Thinkers" },
           description: { zh: "你是天生的領袖，超會帶隊，激勵大家把目標實現！適合帶領宣教團隊。", en: "You’re a born leader, great at rallying teams to hit goals! Perfect for leading mission squads." },
@@ -249,25 +249,25 @@ document.addEventListener('DOMContentLoaded', function() {
           description: { zh: "你超會解決問題，現場應變無敵，適合實地行動。", en: "You’re awesome at fixing problems and adapting on the spot, perfect for fieldwork." },
           tasks: { zh: "搞技術、應對危機、實地做事。", en: "Handle tech, tackle crises, do fieldwork." },
           character: { zh: "西拉", en: "Silas" }, reason: { zh: "西拉適應力超強（使徒行傳15:40-16:25），跟你一樣實幹！", en: "Silas adapts fast (Acts 15:40-16:25), just like your action style!" },
-          image: "13" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753698921/Silas_kx2y3w.jpg" // 替換為實際圖片URL
         },
         ISFP: { name: { zh: "藝術傳播者", en: "Creative Soul" }, category: { zh: "開拓者", en: "Trailblazers" },
           description: { zh: "你用音樂或藝術傳遞信仰，超會感動人！", en: "You spread faith through music or art, super touching!" },
           tasks: { zh: "創作藝術、帶敬拜、設計視覺。", en: "Create art, lead worship, design visuals." },
           character: { zh: "大衛", en: "David" }, reason: { zh: "大衛用詩歌表達信仰（使徒行傳13:22），跟你一樣有創意！", en: "David expresses faith through poetry (Acts 13:22), just like your creativity!" },
-          image: "14" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753698886/David_aotbua.jpg" // 替換為實際圖片URL
         },
         ESTP: { name: { zh: "行動先鋒", en: "Bold Trailblazer" }, category: { zh: "開拓者", en: "Trailblazers" },
           description: { zh: "你行動超快，敢闖新地方，適合街頭或新環境傳福音。", en: "You act fast and dive into new places, great for street or new environment outreach." },
           tasks: { zh: "辦即興活動、開拓新機會、應對突發狀況。", en: "Run impromptu events, explore new opportunities, handle surprises." },
           character: { zh: "司提反", en: "Stephen" }, reason: { zh: "司提反大膽傳福音（使徒行傳6:8-7:60），跟你一樣勇敢！", en: "Stephen boldly preaches (Acts 6:8-7:60), just like your courage!" },
-          image: "15" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753698942/Stephen_hc0pfz.jpg" // 替換為實際圖片URL
         },
         ESFP: { name: { zh: "快樂傳播者", en: "Joyful Star" }, category: { zh: "開拓者", en: "Trailblazers" },
           description: { zh: "你像個快樂製造機，超會帶動氣氛，適合公開場合傳福音！", en: "You’re a joy machine, great at creating vibes, perfect for sharing faith in public!" },
           tasks: { zh: "主持活動、帶青年團、推廣信仰。", en: "Host events, lead youth groups, spread faith." },
           character: { zh: "百基拉", en: "Priscilla" }, reason: { zh: "百基拉用熱情教導（使徒行傳18:2-26），跟你一樣快樂！", en: "Priscilla teaches with joy (Acts 18:2-26), just like your vibe!" },
-          image: "16" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753698469/myedit_image_generator_0727174608_nelcdi.jpg" // 替換為實際圖片URL
         }
     };
 
