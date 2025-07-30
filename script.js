@@ -189,61 +189,61 @@ document.addEventListener('DOMContentLoaded', function() {
           description: { zh: "你是天生的領袖，超會帶隊，激勵大家把目標實現！適合帶領宣教團隊。", en: "You’re a born leader, great at rallying teams to hit goals! Perfect for leading mission squads." },
           tasks: { zh: "帶隊、分配資源、定行動計劃。", en: "Lead teams, allocate resources, set action plans." },
           character: { zh: "雅各", en: "James" }, reason: { zh: "雅各在會議中果斷拍板（使徒行傳15:13-21），跟你一樣有領導力！", en: "James makes bold decisions at the council (Acts 15:13-21), just like your leadership!" },
-          image: "3" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753833762/James_xgpcaa.jpg" // 替換為實際圖片URL
         },
         ENTP: { name: { zh: "創意冒險家", en: "Idea Maverick" }, category: { zh: "智囊團", en: "Thinkers" },
           description: { zh: "你腦子裡全是新點子，愛挑戰老方法，超適合在亂七八糟的環境中找到新路！", en: "Your brain’s full of new ideas, and you love breaking old rules, perfect for finding new paths in messy situations!" },
           tasks: { zh: "搞創意活動、試新方法、解決突發問題。", en: "Run creative events, try new methods, solve sudden issues." },
           character: { zh: "亞波羅", en: "Apollos" }, reason: { zh: "亞波羅用超有創意的方式講福音（使徒行傳18:24-28），跟你一樣有想法！", en: "Apollos preaches creatively (Acts 18:24-28), just like your innovative vibe!" },
-          image: "4" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753833737/Apollos_fulbwb.jpg" // 替換為實際圖片URL
         },
         INFJ: { name: { zh: "心靈導師", en: "Soul Mentor" }, category: { zh: "陪伴者", en: "Guides" },
           description: { zh: "你超會讀懂人心，擅長一對一聊天，幫別人找到信仰方向。", en: "You’re great at reading hearts, perfect for one-on-one chats to guide people toward faith." },
           tasks: { zh: "帶個人靈修、輔導朋友、寫暖心內容。", en: "Lead personal devotions, counsel friends, write heartfelt content." },
           character: { zh: "巴拿巴", en: "Barnabas" }, reason: { zh: "巴拿巴總是鼓勵別人（使徒行傳11:22-26），跟你一樣暖！", en: "Barnabas always encourages others (Acts 11:22-26), just like your warmth!" },
-          image: "5" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753833746/Barnabas_a9iwzy.jpg" // 替換為實際圖片URL
         },
         INFP: { name: { zh: "夢想傳播者", en: "Dream Spreader" }, category: { zh: "陪伴者", en: "Guides" },
           description: { zh: "你用真心分享信仰，激勵大家追夢，適合寫故事或分享感動。", en: "You share faith with heart, inspiring others to chase dreams, great for storytelling or sharing touching moments." },
           tasks: { zh: "寫故事、創作詩歌、分享信仰經歷。", en: "Write stories, create poetry, share faith experiences." },
           character: { zh: "約翰馬可", en: "John Mark" }, reason: { zh: "約翰馬可寫馬可福音，傳遞信仰（使徒行傳13:5），跟你一樣有夢想！", en: "John Mark writes the Gospel of Mark (Acts 13:5), just like your dreamy vibe!" },
-          image: "6" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753833779/John_Mark_fc5unm.jpg" // 替換為實際圖片URL
         },
         ENFJ: { name: { zh: "魅力帶頭人", en: "Charismatic Leader" }, category: { zh: "陪伴者", en: "Guides" },
           description: { zh: "你超會帶動氣氛，激勵大家一起參與，適合帶小組或分享會。", en: "You’re awesome at creating vibes and inspiring people, perfect for leading groups or sharing sessions." },
           tasks: { zh: "帶小組、培訓新人、辦分享會。", en: "Lead groups, train newbies, host sharing events." },
           character: { zh: "彼得", en: "Peter" }, reason: { zh: "彼得用熱情帶領大家（使徒行傳2:14-41），跟你一樣有魅力！", en: "Peter leads with passion (Acts 2:14-41), just like your charisma!" },
-          image: "7" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753833154/Peter_dftawk.jpg" // 替換為實際圖片URL
         },
         ENFP: { name: { zh: "活力連結者", en: "Vibe Connector" }, category: { zh: "陪伴者", en: "Guides" },
           description: { zh: "你像個快樂傳播者，超會跟不同人打交道，帶來信仰的正能量！", en: "You’re a joy spreader, great at connecting with all kinds of people, bringing faith’s positive energy!" },
           tasks: { zh: "辦社區活動、拉新朋友、推廣信仰。", en: "Run community events, connect with new friends, promote faith." },
           character: { zh: "腓利", en: "Philip" }, reason: { zh: "腓利跟各種人分享福音（使徒行傳8:4-8），跟你一樣有活力！", en: "Philip shares with everyone (Acts 8:4-8), just like your energy!" },
-          image: "8" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753833176/Philip_shpz22.jpg" // 替換為實際圖片URL
         },
         ISTJ: { name: { zh: "靠譜執行者", en: "Reliable Doer" }, category: { zh: "行動派", en: "Doers" },
           description: { zh: "你超靠譜，總把事情安排得妥妥的，適合管後勤或保持秩序。", en: "You’re super reliable, always getting things done right, perfect for logistics or keeping things in order." },
           tasks: { zh: "管錢、安排日程、確保物資到位。", en: "Manage funds, schedule events, ensure resources are ready." },
           character: { zh: "亞拿尼亞", en: "Ananias" }, reason: { zh: "亞拿尼亞穩穩完成神的任務（使徒行傳9:10-19），跟你一樣靠譜！", en: "Ananias gets God’s tasks done (Acts 9:10-19), just like your reliability!" },
-          image: "9" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753833193/Ananias_e3ouqw.jpg" // 替換為實際圖片URL
         },
         ISFJ: { name: { zh: "暖心守護者", en: "Heartfelt Helper" }, category: { zh: "行動派", en: "Doers" },
           description: { zh: "你超溫暖，總是默默幫人，適合做慈善或關心別人。", en: "You’re super warm, always helping quietly, great for charity or caring for others." },
           tasks: { zh: "探訪朋友、辦慈善活動、給情感支持。", en: "Visit friends, run charity events, offer emotional support." },
           character: { zh: "多加", en: "Tabitha/Dorcas" }, reason: { zh: "多加默默幫窮人（使徒行傳9:36-39），跟你一樣有愛心！", en: "Tabitha quietly helps the poor (Acts 9:36-39), just like your kindness!" },
-          image: "10" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753833141/Dorcas_c88zjg.jpg" // 替換為實際圖片URL
         },
         ESTJ: { name: { zh: "秩序大佬", en: "Order Boss" }, category: { zh: "行動派", en: "Doers" },
           description: { zh: "你超會組織，確保一切順利，適合管團隊或項目進度。", en: "You’re great at organizing, making sure everything runs smoothly, perfect for managing teams or progress." },
           tasks: { zh: "監督項目、帶志工、確保活動順利。", en: "Oversee projects, lead volunteers, ensure events go well." },
           character: { zh: "哥尼流", en: "Cornelius" }, reason: { zh: "哥尼流有條理地做事（使徒行傳10:1-8），跟你一樣有秩序！", en: "Cornelius organizes things well (Acts 10:1-8), just like your orderliness!" },
-          image: "11" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753833205/Cornelius_hsnsv8.jpg" // 替換為實際圖片URL
         },
         ESFJ: { name: { zh: "社群暖男/暖女", en: "Community Star" }, category: { zh: "行動派", en: "Doers" },
           description: { zh: "你愛打造溫暖的社群，讓大家團結，適合推廣信仰。", en: "You love building warm communities, uniting people, great for spreading faith." },
           tasks: { zh: "辦社區活動、拉新朋友、關心新人。", en: "Run community events, connect with new friends, care for newbies." },
           character: { zh: "呂底亞", en: "Lydia" }, reason: { zh: "呂底亞用好客打造教會（使徒行傳16:14-15），跟你一樣暖！", en: "Lydia builds a church with hospitality (Acts 16:14-15), just like your warmth!" },
-          image: "12" // 替換為實際圖片URL
+          image: "https://res.cloudinary.com/duvcvktsy/image/upload/v1753833133/Lydia_pipxm7.jpg" // 替換為實際圖片URL
         },
         ISTP: { name: { zh: "實幹冒險家", en: "Action Hero" }, category: { zh: "開拓者", en: "Trailblazers" },
           description: { zh: "你超會解決問題，現場應變無敵，適合實地行動。", en: "You’re awesome at fixing problems and adapting on the spot, perfect for fieldwork." },
