@@ -394,7 +394,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // 顯示圖片（這裡會直接使用 image 編號）
         // **您需要手動將此處的數字替換為實際的圖片 URL！**
         // 例如：roleImageEl.src = `https://your-image-hosting.com/images/role-${role.image}.jpg`;
-        roleImageEl.src = `https://via.placeholder.com/400x400/FFD700/000000?text=圖片編號${role.image}`; // 這是暫時的佔位符
+        roleImageEl.src = role.image; // 這是暫時的佔位符
         roleImageEl.alt = role.name.zh; // 圖片的alt文本
 
         // 顯示使用者資訊和結果內容
